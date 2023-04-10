@@ -8,7 +8,7 @@ phrases = [
     desc: `L'expression "l'arbre qui cache la forêt" désigne une chose qui donne l'apparence d'une révélation finale, mais qui en réalité n'en est que le commencement. Cela signifie qu'une chose peut sembler être un ensemble, alors qu'elle n'est en fait qu'un détail. Cette expression est relativement récente, datant du XXe siècle. Prenons l'exemple d'un politicien accusé de corruption. Bien que les médias se concentrent sur cette accusation, cela pourrait ne représenter qu'"un arbre qui cache la forêt" s'il existe d'autres scandales de corruption plus importants dans le parti politique auquel il appartient.`,
   },
   {
-    text: "“avoir sur le bout de la langue (l') “",
+    text: "avoir sur le bout de la langue (l')",
     desc: "avoir le sentiment que l'on pourrait presque dire quelque chose qui nous échappe encore. chercher, parfois en vain, un terme ou un nom en ayant le sentiment d'être proche de le retrouver. il s'agit d'une expression figurative. on peut par exemple écrire :<< il m'était impossible de me rappeler son nom que j'avais pourtant sur le bout de la langue. >>",
   },
   {
