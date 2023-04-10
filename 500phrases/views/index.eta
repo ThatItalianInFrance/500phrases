@@ -1,0 +1,18 @@
+<% layout('./layout') %> <%- console.log('ciao') %>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-6 offset-3">
+        <h1>500 french phrases explained</h1>
+        <div>For you to learn and have fun</div>
+        <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
+        it.phrases[i]; %>
+        <tr>
+          <td><a href="./<%= i %>"> <%= element.text %></a></td>
+          <br />
+          <% console.log(element.text) } %>
+        </tr>
+      </div>
+    </div>
+  </div>
+</body>
