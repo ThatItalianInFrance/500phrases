@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const eta = require("eta");
 const fs = require("fs");
-
+const PORT = process.env.PORT || 3030;
 app.engine("eta", eta.renderFile);
 eta.configure({ views: "./views", cache: true });
 app.set("views", "./views");
@@ -27,6 +27,6 @@ app.get("/:id", function (req, res) {
   id = req.params.id;
   res.render("phrase.eta", { id, phrases });
 });
-app.listen(8000, function () {
+app.listen(PORT, function () {
   console.log("listening on port 8000");
 });
