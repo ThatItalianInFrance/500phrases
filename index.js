@@ -25,8 +25,9 @@ app.get("/", function (req, res) {
 });
 app.get("/:id", function (req, res) {
   id = req.params.id;
+  console.log(id);
   res.render("phrase.eta", { id, phrases });
 });
 app.listen(PORT, function () {
-  console.log("listening on port 8000");
+  console.log("listening on port 3030");
 });
