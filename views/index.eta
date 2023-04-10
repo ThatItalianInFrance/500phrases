@@ -13,7 +13,7 @@
           <% console.log(element.text) } %>
         </tr>
       </div>
-      <div class="col-6 offset-3">other col</div>
+      <div class="col-6">other col</div>
     </div>
   </div>
 </body>
