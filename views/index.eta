@@ -1,18 +1,18 @@
 <% layout('./layout') %> <%- console.log('ciao') %>
+
 <body>
   <div class="container">
     <h1 class="text-center">500 french phrases explained</h1>
     <div class="row">
       <div class="col-2"></div>
-      <div class="col-6 offset-3">
+      <div class="col-6 ">
         <h1>Complete list</h1>
         <div>For you to learn and have fun</div>
+        <div><input type="search" class="form-control" id="search" placeholder="Recherche" oninput="loadInvoices()"></div>
         <ul class="list-group">
           <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
           it.phrases[i]; %>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-start"
-          >
+          <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
               <div class="fw-bold">
                 <a href="./<%= i %>"> <%= element.text %></a>
@@ -28,3 +28,6 @@
     </div>
   </div>
 </body>
+<script>
+  function loadInvoices() {};
+</script>
