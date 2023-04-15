@@ -1,30 +1,34 @@
 <% layout('./layout') %> <%- console.log('ciao') %>
 <body>
-  <div class="container">
-    <h1 class="text-center">500 french phrases explained</h1>
-    <div class="row">
-      <div class="col-2"></div>
-      <div class="col-6 offset-3">
-        <h1>Complete list</h1>
-        <div>For you to learn and have fun</div>
-        <ul class="list-group">
-          <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
-          it.phrases[i]; %>
-          <li
-            class="list-group-item d-flex justify-content-between align-items-start"
-          >
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">
-                <a href="./<%= i %>"> <%= element.text %></a>
-              </div>
-              Content for list item
-            </div>
-            <span class="badge bg-primary rounded-pill">id: <%= i %></span>
-          </li>
+  <section id="list">
 
-          <% console.log(element.text) } %>
-        </ul>
+    <div class="container">
+      <h1 class="text-center">500 french phrases explained</h1>
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="col-6 offset-2">
+          <h1>Complete list</h1>
+          <div>For you to learn and have fun</div>
+          <ul class="list-group">
+            <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
+              it.phrases[i]; %>
+              <li
+              class="list-group-item d-flex justify-content-between align-items-start"
+              >
+              <div class="ms-2 me-auto">
+                <div class="fw-bold">
+                  <%= element.text[0].toLocaleUpperCase() %><%= element.text.slice(1) %> </a>
+                </div>
+                <%= element.desc.slice(0,45) %>... <a href="./<%= i %>">lire plus</a>
+              </div>
+              <span class="badge bg-primary rounded-pill">id: <%= i %></span>
+            </li>
+            
+            <% console.log(element.text) } %>
+          </ul>
+        </div>
       </div>
     </div>
-  </div>
-</body>
+  </section>
+  </body>
+  
