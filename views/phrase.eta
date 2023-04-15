@@ -20,7 +20,8 @@
               id="text"
               style="font-family: 'Pacifico', cursive"
             >
-              <%= it.phrases[id].text %>
+              "<%= it.phrases[id].text[0].toLocaleUpperCase() %><%=
+              it.phrases[id].text.slice(1).toLowerCase() %>""
             </h2>
             <p id="desc" style="font-family: 'Arvo', serif">
               <%= it.phrases[id].desc %>
