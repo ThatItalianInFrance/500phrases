@@ -1,4 +1,4 @@
-<% layout('./layout') %> <%- console.log('start of index.eta') %>
+<% layout('./layout') %> <%- /*console.log('start of index.eta')*/ %>
 
 <body>
   <div class="container">
@@ -17,13 +17,13 @@
               <div class="fw-bold">
                 "<%= element.text[0].toLocaleUpperCase() %><%= element.text.slice(1).toLowerCase() %>"
               </div>
-              <%= element.desc[0].toLocaleUpperCase() %><%= element.desc.slice(1,45) %>... <a href="./<%= i %>">lire plus</a>
+              <%= element.desc[0].toLocaleUpperCase() %><%= element.desc.slice(1,45) %>... <a href="./phrase/<%= i %>">lire plus</a>
               
             </div>
             <span class="badge bg-primary rounded-pill">id: <%= i + 1 %></span>
           </li>
           
-          <%  } console.log('end of index.eta')  %>
+          <%  } /*console.log('end of index.eta')*/  %>
         </ul>
       </div>
     </div>

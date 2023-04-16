@@ -24,6 +24,11 @@ app.get("/", function (req, res) {
   phrases = loadPhrases();
   res.render("index.eta", { phrases });
 });
+app.get("/phrase/:id", function (req, res) {
+  id = req.params.id;
+  res.render("phrase.eta", { phrases });
+});
+
 app.get("/:id", function (req, res) {
   let checkQuery = function (id) {};
   id = req.params.id;
@@ -35,7 +40,7 @@ app.get("/:id", function (req, res) {
     phrases = loadPhrases();
     res.render("phrase.eta", { phrases });
     return;
-  } else {
+  } else if (typeof +id == "number") {
     phrases = loadPhrases();
     phrases = phrases.filter((word) => word.text.includes(id));
 
