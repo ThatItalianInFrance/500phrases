@@ -21,12 +21,28 @@ function loadPhrases() {
 let phrases = loadPhrases();
 
 app.get("/", function (req, res) {
+  phrases = loadPhrases();
   res.render("index.eta", { phrases });
 });
 app.get("/:id", function (req, res) {
+  let checkQuery = function (id) {};
   id = req.params.id;
   console.log(id);
-  res.render("phrase.eta", { id, phrases });
+  console.log(typeof id);
+
+  if (+id === NaN) {
+    console.log("start of if id condition");
+    phrases = loadPhrases();
+    res.render("phrase.eta", { phrases });
+    return;
+  } else {
+    phrases = loadPhrases();
+    phrases = phrases.filter((word) => word.text.includes(id));
+
+    console.log("else fired");
+    res.render("index.eta", { phrases });
+    return phrases;
+  }
 });
 app.listen(PORT, function () {
   console.log("listening on port 3030");
