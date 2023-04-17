@@ -25,8 +25,10 @@ app.get("/", function (req, res) {
   res.render("index.eta", { phrases });
 });
 app.get("/phrase/:id", function (req, res) {
+  phrases = loadPhrases();
   id = req.params.id;
-  res.render("phrase.eta", { phrases });
+  res.render("phrase.eta", {phrases });
+  return phrases;
 });
 
 app.get("/:id", function (req, res) {

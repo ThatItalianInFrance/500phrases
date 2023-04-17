@@ -17,9 +17,9 @@
           it.phrases[i]; %>
           <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">
-              <div class="fw-bold">
+              <blockquote class="fw-bold">
                 "<%= element.text[0].toLocaleUpperCase() %><%= element.text.slice(1).toLowerCase() %>"
-              </div>
+              </blockquote>
               <%= element.desc[0].toLocaleUpperCase() %><%= element.desc.slice(1,45) %>... <a href="./phrase/<%= i %>">lire plus</a>
               
             </div>
