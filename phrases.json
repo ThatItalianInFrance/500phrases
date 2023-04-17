@@ -613,5 +613,297 @@
   {
     "text": "CROIRE LES YEUX FERMÉS",
     "desc": "Équivalent de << faire une confiance aveugle ». S'il n'est certes pas besoin d'ouvrir les yeux pour décider de croire ou non une personne ou une chose qui nous est dite, l'expression, figurative, est parlante : lorsque l'on a confiance en quelqu'un, on n'a pas besoin de véri- fier, de ses propres yeux, ses dires pour les croire. Par exemple: -Je te le jure, ce n'est pas moi qui ai pris ta montre ! Ne t'inquiète pas, je te crois les yeux fermés. >>"
-  }
+  },
+
+{
+  "text":
+
+"C'EST DE BONNE GUERRE",
+"desc":
+
+"Reconnaître qu'un coup porté est raisonnable et équilibré, admettre que le coup est valable: Cette expression trouve son origine dans le langage militaire ou de combat, où elle signifie qu'un coup respecte les règles. Par extension, il ne s'agit en fait plus de faire la guerre au sens propre mais au sens figuré. Le dictionnaire Larousse lui associe les notions d'habileté et de ruse."
+},
+{
+  "text":
+"C'EST DU CHINOIS/DE L'HÉBREU",
+"desc":
+
+"Je n'y comprends rien. On utilise cette expression depuis le xvin siècle. Le chinois et l'hé breu n'utilisent en fait pas les mêmes caractères que le français ou les langues latines et romaines en général ; c'est donc incompréhensible. Par exemple: Pour ma grand-mère, le langage Internet c'est de l'hébreu ! » ou « Les maths, c'est du chinois ! >>"
+},
+{
+  "text":
+"C'EST DU TOUT CUIT",
+"desc":
+
+"C'est déjà gagné (ou gagné d'avance), on est sûrs de réussir. Il semblerait que cette expres- sion soit liée à la viande, qui, si elle est mal cuite, n'est pas pratique à manger, à mastiquer. Ainsi, si elle est << toute cuite, l'affaire sera facile et aisée. Par exemple : « Je n'ai pas révisé pour le bac parce que c'est du tout cuit ! »"
+},
+{
+  "text":
+"C'EST LA CROIX ET LA BANNIÈRE",
+"desc":
+
+"C'est difficile, compliqué, ardu. Cette expression remonte au xv siècle et semble être ori- ginaire d'Italie. Lors des processions religieuses, une croix et une bannière particulière- ment lourdes étaient portées par des membres du cortège : la tâche était donc malaisée et demandait une grande rigueur d'organisation. Par exemple : « Passer le permis de conduire dans une grande ville, c'est la croix et la bannière ! »"
+
+},
+{
+  "text":
+"C'EST LA FIN DES HARICOTS",
+"desc":
+
+"C'est la fin de tout. Au départ, le haricot est un aliment de base, peu cher Cette expression fait écho en particulier aux pensionnats du xix siècle, où on en nourrissait les internes lorsque les temps étaient rudes. S'il n'y a plus de haricots, on ne peut plus manger, c'est la fin. Cette expression est maintenant volontiers utilisée de façon ironique."
+},
+{
+  "text":
+"C'EST LE BOUQUET",
+"desc":
+
+"Il ne manquait plus que ça. Cette expression est utilisée dans un sens totalement ironique. En effet, ne parle-t-on pas de « bouquet final » lorsqu'on parle de la fin d'un feu d'artifice ? Le bouquet », depuis la fin du xvi siècle, désignait ce qu'il y a de mieux ». L'expression qui nous intéresse, apparue au milieu du xix siècle, prend le contre-pied de ce sens initial pour évoquer un malheur dont on aurait pu se passer."
+},
+{
+  "text":
+"C'EST LE POMPON",
+"desc":
+
+"C'est le comble. Se dit pour exprimer le sentiment d'être arrivé au paroxysme d'une situa- tion négative. Un peu comme la goutte d'eau qui fait déborder le vase », cette expression familière n'a pas d'origine claire, mais l'on sait que le pompon désigne le fait d'avoir l'avan- tage (sens guère plus utilisé). S'agit-il, aussi, de décrocher le pompon en haut du manège ?"
+},
+{
+  "text":
+"C'EST UN JEU D'ENFANT(S)",
+"desc":
+
+"C'est très facile, même un enfant pourrait le faire [et encore, ce serait pour lui un jeu !). Cette expression dont l'origine n'est pas connue désigne donc une tâche élémentaire. Par exemple:« je suis habitué à tricoter, pour moi c'est un jeu d'enfant », ou «< -Ton rôti était très bon, tu me donneras la recette ! -Tu verras, c'est un jeu d'enfant ! >>"
+
+},
+{
+  "text":
+"DE BOUCHE À OREILLE",
+"desc":
+
+"Une information qui se répand de bouche à oreille est une information qui est transmise de manière orale. Chaque personne informée la dira << depuis sa bouche » jusqu'« aux oreilles » de la personne à qui elle le raconte. Par exemple :« Baptiste et Charlie ne m'ont pas annoncé personnellement leurs fiançailles, mais je l'ai appris par le bouche-à-oreille » signifie que vous avez obtenu l'information d'une tierce personne."
+},
+{
+  "text":
+"DÉCOUVRIR LE POT AUX ROSES",
+"desc":
+
+"Se rendre compte de la supercherie. Plusieurs origines sont prétées à cette expression mais nous retiendrons d'abord celle-ci : les parfumeurs d'antan utilisaient de l'eau de rose dis- tillée pour créer leurs parfums, dont les formules étaient gardées secrètes, car précieuses. Il est également possible que la source se trouve dans des mythes antiques ou dans le fait qu'au xvi siècle, graver une rose dans le bois d'un confessionnal signifiait que le secret serait bien gardé."
+},
+{
+  "text":
+"DÉMARRER SUR LES CHAPEAUX DE ROUE",
+"desc": 
+
+"Dans le vocabulaire automobile, un véhicule << démarre sur les chapeaux de roue >> lorsqu'il démarre très vite. Par extension, se dit donc d'un départ rapide, d'une mise en place effi- cace. Cette expression est à peu près équivalente à « démarrer en fanfare ». Par exemple : «Eh bien ! Ce projet démarre sur les chapeaux de roue, j'en suis ravie ! »"
+},
+{
+  "text":
+"DESHABILLER PIERRE POUR HABILLER PAUL",
+"desc": 
+
+"Trancher un problème en créant un autre problème. Prendre une chose à quelqu'un pour la donner à un autre, sans améliorer la situation d'aucun. Par exemple, rembourser une dette par un deuxième emprunt. Dans son manuel de sociologie, Gilles Ferréol écrit: << La justice ne consiste pas à déshabiller Pierre pour habiller Paul. » L'expression est d'origine religieuse."
+
+},
+{
+  "text":
+"DIRE SES QUATRE VÉRITÉS",
+"desc":
+
+"Tenir un discours franc, dire avec une sincérité volontiers brutale ce que l'on pense de quelqu'un. Cette expression date du xvi siècle, mais son origine n'est pas très claire. Le chiffre quatre et le pluriel de vérités » indiquent une exhaustivité du discours tenu. Par exemple: Avant de démissionner, Maia a dit ses quatre vérités au chef de service. » Marcel Aymé a intitulé une pièce de théâtre Les Quatre Vérités."
+},
+{
+  "text":
+"DOIGTS DANS LE NEZ (LES)",
+"desc":
+
+"Faire une chose facilement. Si on voulait faire cette chose d'une seule main, et se mettre les doigts de l'autre main dans le nez, on le pourrait tant l'entreprise est aisée. On en trouve trace dès le début du xx siècle, apparemment dans le vocabulaire hippique, où une course facile pouvait être gagnée sans que le jockey ne tienne son cheval: il pouvait même se mettre les doigts dans le nez. Par exemple: << Éric a passé son bac- calauréat et l'a eu les doigts dans le nez. >>"
+},
+{
+  "text":
+"DONNER DE LA CONFITURE AUX COCHONS ",
+"desc":
+
+"Pejoratif. Donner une chose à quelqu'un qui ne sait l'apprécier (à sa juste valeur), qui s'en moque. Par exemple :« Emmener ce béotien écouter de l'opéra, c'est donner de la confi- ture aux cochons » ou « Il avait cuisiné toute la journée et, à les voir engloutir leur repas, pensa qu'il avait donné de la confiture aux cochons. » L'expression existe presque telle quelle en espagnol mais on dit «< marguerite au lieu de «< confiture >>"
+},
+{
+  "text":
+"DONNER DES AILES",
+"desc":
+
+"L'image des ailes évoque la liberté et la légèreté, donne le sentiment que l'on pourrait tout faire. Se dit souvent de l'amour, du bonheur ou de la réussite. Platon a écrit dans un poème : La musique donne une âme à nos cœurs et des ailes à la pensée. » Aristophane utilise aussi cette locution dans sa comédie Les Oiseaux :<< -L'ami, ce ne sont pas des conseils, mais des ailes, que je te demande. En te parlant ainsi, je te donne des ailes. »"
+
+},
+{
+  "text":
+"DONNER DU FIL À RETORDRE",
+"desc":
+
+"Poser des difficultés. A l'origine, dans le vocabulaire des tisserands, il existait toute une manœuvre compliquée et pénible, notamment la torsion des fils. Cette expression est recensée dans le Dictionnaire de l'Académie française de 1798, mais il semblerait qu'elle existait depuis quelques dizaines d'années déjà. Par exemple :<< Ce problème de mathématiques me donne bien du fil à retordre!»"
+},
+{
+  "text":
+"DONNER SA LANGUE AU CHAT",
+"desc":
+
+"Avouer que l'on ne sait pas résoudre une énigme, que l'on n'a pas la réponse à une ques- tion. Au départ, on << jetait sa langue au chien », cet animal ne recevant que les restes de nourriture, ce qu'on renonçait à manger. Ici aussi, on renonce à chercher la réponse à une question. Par exemple, lors d'un jeu de société où l'on ne connait pas la réponse: << -Combien y a-t-il de départements en France ? - Je n'en sais rien, je donne ma langue au chat! >>"
+},
+{
+  "text":
+"DONNER UN COUP DE COLLIER" ,
+"desc":
+
+"Accélérer, fournir un effort supplémentaire. Dès le xvii siècle, le collier, sans doute par analogie avec le collier que l'on mettait sur les animaux qui tiraient les charrues ou tra- vaillaient aux champs, désignait le travail. Par extension, on imagine bien que le collier claque sur le cou lorsque l'on avance plus rapidement. Par exemple: Si je donne un bon coup de collier jusqu'à vendredi, je partirai en vacances l'esprit tranquille. »>"
+},
+{
+  "text":
+"DONNER UN OS À RONGER" ,
+"desc":
+
+"Faire une concession. Sur un os il ne reste que peu de chair; l'idée ici est donc bien que cette concession ne coûte pas trop à celui/celle qui la fait. Souvent, cette expres sion familière est employée dans un sens temporaire on « donne un os à ronger ≫ en attendant mieux, par exemple lors de négociations pour calmer les premières revendications."
+
+},
+{
+  "text":
+"DORMIR SUR SES DEUX OREILLES",
+"desc":
+
+"Dormir tranquille, ne pas se faire de soucis, On dit dormir sur une oreille ou l'œil ouvert pour, au contraire, signifier que l'on est tracassé, que l'on doit surveiller une chose Depuis qu'ils avaient un garde du corps, les témoins dans cette affaire de grand bandi tisme dormaient sur leurs deux oreilles, par exemple. L'origine n'est pas connue."
+},
+{
+  "text":
+"ÉCLAIRER LA LANTERNE",
+"desc":
+
+"Donner une information, expliciter son propos. L'image est comique : une lanterne est des tinée, elle-même, à éclairer. Si l'on a besoin d'un tiers pour l'éclairer, on renforce l'idée de <<voir le savoir », car dans la lumière on voit mieux. L'image de la lumière est souvent uti- lisée pour évoquer l'intellect («< ce n'est pas une lanterne >> signifie << il/elle n'est pas très malin »). Par exemple: Toi qui t'y connais en économie, éclaire donc ma lanterne >> (donne-moi des clefs d'analyse)."
+},
+{
+  "text":
+
+"ÉCOUTER AUX PORTES",
+"desc":
+
+"Si vous mettez votre oreille contre une porte fermée, surtout si la matière est creuse, vous pourrez sans doute entendre quelques bribes de ce qu'il se passe derrière. Si on a fermé la porte, vous n'étiez pas censé être au courant : cette expression rend donc compte de votre filouterie. Elle existe depuis le xviii siècle. Par exemple: << Les espions savent très bien écouter aux portes.≫"
+},
+{
+  "text":
+"ÉCOUTER D'UNE OREILLE",
+"desc":
+
+"N'être que peu attentif, ne pas être entièrement concentré sur ce que son interlocuteur dit. On ne connait pas l'origine de cette expression mais il est évident que si vous n'utilisez qu'une seule de vos deux oreilles, vous manquez des informations et n'êtes qu'à moitié impliqué dans la conversation. On peut « écouter d'une oreille » un disque de la même façon qu'on lit en diagonale » un livre."
+},
+{
+  "text":
+
+"ÉCRIRE NOIR SUR BLANC",
+"desc":
+
+"On se figure aisément l'image de la feuille de papier blanche sur laquelle est écrit ou imprimé un texte à l'encre noire, de sorte qu'on le voit bien. Cela signifie qu'une chose est claire, qu'elle est inscrite et actée, en un mot, incontestable. Par exemple: Comment as-tu pu te tromper de chemin ? Les directions étaient écrites noir sur blanc sur le car ton d'invitation ! >>"
+},
+{
+  "text":
+"EN AVOIR GROS SUR LA PATATE" ,
+"desc":
+
+"Être démoralisé, avoir le cœur lourd, ressentir une grande tristesse. On peut d'ailleurs rem- placer << la patate >> par le cœur » ou «< l'estomac ». C'est au xx eme siècle que l'on com- mence à utiliser le terme << patate » ou « pomme de terre » pour désigner le cœur. Par exemple :<< Après que son compagnon lui a annoncé qu'il le quittait, Thomas en avait gros sur la patate et pleurait souvent. »>"
+},
+{
+  "text":
+"EN AVOIR SA CLAQUE/PLEIN LE DOS",
+"desc":
+
+"En avoir marre, ras le bol.« Débrouillez-vous sans moi, j'en ai ma claque ! >> ou << J'en ai plein le dos de tes sermons, arrête de me faire la morale », par exemple. L'image du dos, qui supporte le corps, est parlante si on en a plein de dos »>> c'est qu'on n'en peut plus de supporter une situation. Quand à « la claque », dès le xix siècle, ce terme servait à désigner l'idée d'être repu."
+},
+{
+  "text":
+"EN BAVER",
+"desc":
+
+"Rencontrer des difficultés pour atteindre un but, et, plus généralement, souffrir. Si le terme << en baver >> existe depuis la fin du xix siècle, ce n'est qu'au xx eme siècle qu'on lui donne souffrir pour signification. Par exemple: « Après son accident de voiture, il a dû passer trois mois en rééducation. Il en a bavé ! » ou « Elle lui en a fait baver au début, mais maintenant elles ont l'air d'être heureuses ensemble. >>"
+},
+{
+  "text":
+
+"EN FAIRE TOUT UN FROMAGE",
+"desc":
+
+"On dit aussi en faire tout un plat -notez qu'il s'agit toujours de nourriture. Cette expression contemporaine signifie monter une chose sans grande importance en épingle, lui donner plus d'impact qu'elle n'en a réellement. Parlant d'un camarade un peu obtus par exemple, on pourra conseiller: Evite de lui emprunter ses stylos sans les lui demander, il va en faire tout un fromage. >>"
+},
+{
+  "text":
+"EN FAIRE VOIR DE TOUTES LES COULEURS" ,
+"desc":
+
+"Cette expression remonte au début du xix siècle et signifie faire subir différentes choses à quelqu'un, lui jouer de nombreux tours ou être turbulent, toujours prêt à se montrer coquin, flou. Plus généralement, elle peut s'utiliser pour faire subir des épreuves >>. Par exemple : Les adolescents en font voir de toutes les couleurs à leurs parents.»"
+},
+{
+  "text":
+"EN PRENDRE DE LA GRAINE",
+"desc":
+
+"Apprendre de quelque chose, en retirer une leçon. Cette expression date du xx siècle et fait référence aux fruits et légumes (à toute plante qui commence par une graine, en fait). Si le végétal est bien entretenu, il poussera bien. De la même façon, un enfant devient adulte sil apprend de la vie et de ses expériences. Par exemple: Je vais te montrer comment faire un gâteau : regarde et prends-en de la graine. >>"
+},
+{
+  "text":
+"EN PRENDRE POUR SON GRADE",
+"desc":
+
+"Se faire réprimander, avec force. On voit bien l'image militaire de l'inférieur, faiblement grade, qui se fait gourmander par son supérieur gradé. On dit par exemple: Maurice a été convo- qué à cause de son mauvais travail : il va en prendre pour son grade ! » Par extension, on peut aussi le dire de quelqu'un qui subit une défaite cuisante, par exemple: Face au club du Havre, l'équipe de Nice en a pris pour son grade. >>"
+},
+{
+  "text":
+
+"EN SUISSE (FAIRE UNE CHOSE)",
+"desc":
+
+"Secrètement, sans partager. À l'origine, d'après le linguiste Gaston Esnault, un soldat suisse aurait, en France, payé au bar sa consommation sans se rendre compte qu'il eut été plus poli de proposer de payer la tournée, ou du moins, d'offrir de partager la note avec ses cama rades. L'expression, guère plus utilisée à cause de sa connotation peu amicale pour nos voi sins helvètes, remonterait au début du xix siècle."
+},
+{
+  "text":
+"ENFONCER DES PORTES OUVERTES" ,
+"desc":
+
+"Enoncer comme des vérités des choses évidentes, connues de tous, tenir un discours sans intérêt, sans valeur ajoutée. Cette expression nait à la fin du XVIII eme siècle et est nette : il n'y a aucune difficulté à donner un coup dans une porte déjà ouverte... pour l'ouvrir. Par exemple :<< Je n'aime pas cet essayiste car il ne fait qu'enfoncer des portes ouvertes et n'a aucune analyse personnelle. »"
+},
+{
+  "text":
+"ENFONCER LE CLOU",
+"desc":
+
+"En rajouter Plus vous tapez sur un clou avec un marteau, plus vous l'enfoncez dans le bois ou le mur. On dira par exemple : Rosette m'a menti et, pour enfoncer le clou, elle m'a volé mon livre ! » pour signifier que Rosette exagere vraiment et accumule les méfaits, ou : « Ce n'est pas la peine d'enfoncer le clou ! » quand vous souhaitez que votre interlocu- teur se taise et n'ajoute rien à une situation déjà compliquée."
+},
+{
+  "text":
+"ENTERRER LA HACHE DE GUERRE" ,
+"desc":
+
+"Faire la paix ou décider d'une trève. Cette expression trouve sa source dans le monde des Indiens d'Amérique, qui enterraient littéralement une hache (du moins, une hachette), pour signifier symboliquement qu'ils faisaient la paix avec une tribu ennemie. « Allez, recon- naissons chacun nos torts et enterrons la hache de guerre."
+
+},
+{
+  "text":
+"ENTRE CHIEN ET LOUP",
+"desc":
+
+"Dés l'Antiquité, cette expression désigne le moment de la journée où la nuit achève de tom ber et où l'on va bientôt se retrouver dans l'obscurité. Alors, on ne pourra plus reconnaître un chien d'un loup et inversement. Par ailleurs, il semblerait que le chien et le loup aient des << moments réservés au chien la lumière du jour et au loup la nuit. L'expression arrive en France autour du xin siècle."
+},
+{
+  "text":
+"ENTRER DANS LE MOULE",
+"desc":
+
+"Se conformer à un modèle, aux usages et codes d'un milieu. N'importe quelle pâte ou com- position prendra la forme du moule dans lequel elle cuit ou se rigidifie. Attention, on dit des jeunes gens récemment diplômés qu'ils sont frais emoulus » de l'université ou de l'école, mais cela n'a aucun rapport, « émoulu signifiant alors«< aiguisé >>"
+},
+{
+  "text":
+"ENVOYER SUR LES ROSES",
+"desc":
+
+"Envoyer promener, paitre, bouler, c'est-à-dire faire mauvais accueil à quelqu'un et lui signi fier méchamment qu'il nous importune. Il semble que l'usage du terme << rose >> soit iro- nique par la différence extrême entre la douceur supposée, la beauté prêtée aux roses, et le ton désagréable employé pour signifier qu'on dérange. Par exemple :<< Ne téléphone pas après 21 heures, mon père t'enverrait sur les roses. >>"
+},
+{
+  "text":
+"ÉPATER LA GALERIE",
+"desc":
+
+"Amuser ou impressionner les gens. Nicole a montré sa nouvelle montre à tout le monde: elle aime épater la galerie avec son argent » ou « Après le diner, il a épaté la galerie en jouant merveilleusement du piano >>, par exemple. Il y a donc un double usage à cette expression : la réprobation ou la moquerie, et l'admiration sincère. Elle est née au xvii siècle."
+}
 ]
