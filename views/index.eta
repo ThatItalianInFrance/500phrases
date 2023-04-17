@@ -4,108 +4,147 @@
   <div class="container pt-5">
     <div class="container">
       <h1 class="text-center">500 french phrases explained</h1>
-      
+
       <div class="text-center pb-5">For you to learn and have fun</div>
       <div class="container d-flex w-50 pb-5">
-
-        <input type="input" class="form-control" id="search" placeholder="Recherche" ><button class="btn btn-outline-secondary" type="button" onclick="replaceSearch()">Button</button>
+        <input
+          type="input"
+          class="form-control"
+          id="search"
+          placeholder="Recherche"
+        /><button
+          class="btn btn-outline-secondary"
+          type="button"
+          onclick="replaceSearch()"
+        >
+          Button
+        </button>
       </div>
-    <section id="cards">
-      <div class="album py-5 bg-body-tertiary">
-        <div class="container">
-    
-          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="./eiffel.webp" alt="" srcset="" class="" height="250px" style="object-fit: cover;">
-                
-                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="eiffel.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                <div class="card-body">
-                  <p class="card-text">500 french idiomatic phrases for you to learn and have fun</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Go</button>
-                     
+      <section id="cards">
+        <div class="album py-5 bg-body-tertiary">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="./eiffel.webp"
+                    alt=""
+                    srcset=""
+                    class=""
+                    height="250px"
+                    style="object-fit: cover"
+                  />
+
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="eiffel.webp" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                  <div class="card-body">
+                    <p class="card-text">
+                      500 french idiomatic phrases for you to learn and have fun
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a href="/list/french"
+                          ><button
+                            type="button"
+                            class="btn btn-sm btn-outline-primary"
+                          >
+                            Go
+                          </button></a
+                        >
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
                     </div>
-                    <small class="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="./london.webp" alt="" srcset="" class="" height="250px" style="object-fit: cover;">
-                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                <div class="card-body">
-                  <p class="card-text">500 english idiomatic phrases for you to learn and have fun</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Go</button>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="./london.webp"
+                    alt=""
+                    srcset=""
+                    class=""
+                    height="250px"
+                    style="object-fit: cover"
+                  />
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                  <div class="card-body">
+                    <p class="card-text">
+                      500 english idiomatic phrases for you to learn and have
+                      fun
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a href="/list/english"
+                          ><button
+                            type="button"
+                            class="btn btn-sm btn-outline-primary"
+                          >
+                            Go
+                          </button></a
+                        >
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
                     </div>
-                    <small class="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="card shadow-sm">
-                <img src="./Rome.webp" alt="" srcset="" class="" height="250px" style="object-fit: cover;">
-                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-                <div class="card-body">
-                  <p class="card-text">500 italian idiomatic phrases for you to learn and have fun</p>
-                  <div class="d-flex justify-content-between align-items-center">
-                    <div class="btn-group">
-                      <button type="button" class="btn btn-sm btn-outline-primary">Go</button>
+              <div class="col">
+                <div class="card shadow-sm">
+                  <img
+                    src="./rome.webp"
+                    alt=""
+                    srcset=""
+                    class=""
+                    height="250px"
+                    style="object-fit: cover"
+                  />
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                  <div class="card-body">
+                    <p class="card-text">
+                      500 italian idiomatic phrases for you to learn and have
+                      fun
+                    </p>
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="btn-group">
+                        <a href="/list/italian"
+                          ><button
+                            type="button"
+                            class="btn btn-sm btn-outline-primary"
+                          >
+                            Go
+                          </button></a
+                        >
+                      </div>
+                      <small class="text-body-secondary">9 mins</small>
                     </div>
-                    <small class="text-body-secondary">9 mins</small>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <div class="row">
-      
-    
-
-        
-        <ul class="list-group">
-          <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
-          it.phrases[i]; %>
-          <li class="list-group-item d-flex justify-content-between align-items-start">
-            <div class="ms-2 me-auto">
-              <div class="fw-bold">
-                "<%= element.text[0].toLocaleUpperCase() %><%= element.text.slice(1).toLowerCase() %>"
-              </div>
-              <%= element.desc[0].toLocaleUpperCase() %><%= element.desc.slice(1,45) %>... <a href="./phrase/<%= i %>">lire plus</a>
-              
-            </div>
-            <span class="badge bg-primary rounded-pill">id: <%= i + 1 %></span>
-          </li>
-          
-          <%  } /*console.log('end of index.eta')*/  %>
-        </ul>
-      </div>
+      </section>
     </div>
   </div>
-  </div>
-
 </body>
 
 <script>
-let time = new Date().toLocaleTimeString();
-console.log(time);
-console.log(window.navigator.language);
+  let time = new Date().toLocaleTimeString();
+  console.log(time);
+  console.log(window.navigator.language);
 
-let replaceSearch = function() {
-  let foo = document.getElementById('search').value
-if (/^[A-Za-z0-9]*$/.test(foo)) {
-
-  window.location.href = './'+foo;
-} else {
-  return
-}
-};
+  let replaceSearch = function () {
+    let foo = document.getElementById("search").value;
+    if (/^[A-Za-z0-9]*$/.test(foo)) {
+      window.location.href = "./" + foo;
+    } else {
+      return;
+    }
+  };
 </script>

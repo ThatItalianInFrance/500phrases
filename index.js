@@ -10,7 +10,7 @@ app.set("view cache", true);
 app.set("view engine", "eta");
 app.use(express.static("assets"));
 
-const jsonPath = "phrases.json";
+let jsonPath = "phrases.json";
 
 function loadPhrases() {
   if (!fs.existsSync(jsonPath)) fs.writeFileSync(jsonPath, "[]", "utf8");
@@ -24,10 +24,15 @@ app.get("/", function (req, res) {
   phrases = loadPhrases();
   res.render("index.eta", { phrases });
 });
+app.get("/list/:id", function (req, res) {
+  jsonPath = `${req.params.id}.json`;
+  phrases = loadPhrases();
+  res.render("list.eta", { phrases });
+});
 app.get("/phrase/:id", function (req, res) {
   phrases = loadPhrases();
   id = req.params.id;
-  res.render("phrase.eta", {phrases });
+  res.render("phrase.eta", { phrases });
   return phrases;
 });
 
