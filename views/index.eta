@@ -1,14 +1,17 @@
 <% layout('./layout') %> <%- /*console.log('start of index.eta')*/ %>
 
 <body>
-  <div class="container">
-    <h1 class="text-center">500 french phrases explained</h1>
+  <div class="container pt-5">
     <div class="row">
       
       <div class="col-6 offset-3">
-        <h1>Complete list</h1>
-        <input type="input" class="form-control" id="search" placeholder="Recherche" ><button class="btn btn-outline-secondary" type="button" onclick="replaceSearch()">Button</button>
-        <div>For you to learn and have fun</div>
+        <h1 class="text-center">500 french phrases explained</h1>
+        <h1 class="text-center">Complete list</h1>
+        <div class="text-center pb-5">For you to learn and have fun</div>
+        <div class="container d-flex w-50 pb-5">
+
+          <input type="input" class="form-control" id="search" placeholder="Recherche" ><button class="btn btn-outline-secondary" type="button" onclick="replaceSearch()">Button</button>
+        </div>
         <ul class="list-group">
           <% for (let i = 0; i < it.phrases.length; i++) { %> <% const element =
           it.phrases[i]; %>
@@ -33,6 +36,9 @@
 </body>
 
 <script>
+let time = new Date().toLocaleTimeString();
+console.log(time);
+console.log(window.navigator.language);
 
 let replaceSearch = function() {
   let foo = document.getElementById('search').value
