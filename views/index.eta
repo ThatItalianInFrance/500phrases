@@ -3,7 +3,7 @@
 <body>
   <div class="container pt-5">
     <div class="container">
-      <div class="m-5">
+      <div class="m-5 py-5">
         <div class="row">
           <div class="col m-auto">
             <div class="">
@@ -99,7 +99,7 @@
           </div>
         </div>
       </div>
-      <section id="cards">
+      <section id="cards" class="py-5">
         <div class="album py-5 bg-body-tertiary">
           <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
