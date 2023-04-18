@@ -36,7 +36,7 @@ app.get("/phrase/:id", function (req, res) {
   return phrases;
 });
 
-app.get("/:id", function (req, res) {
+app.get("/list/:id", function (req, res) {
   let checkQuery = function (id) {};
   id = req.params.id;
   console.log(id);
