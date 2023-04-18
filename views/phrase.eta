@@ -21,7 +21,7 @@
               style="font-family: 'Pacifico', cursive"
             >
               "<%= it.phrases[id].text[0].toLocaleUpperCase() %><%=
-              it.phrases[id].text.slice(1).toLowerCase() %>""
+              it.phrases[id].text.slice(1).toLowerCase() %>"
             </blockquote>
             <p id="desc" style="font-family: 'Arvo', serif">
               <%= it.phrases[id].desc %>
