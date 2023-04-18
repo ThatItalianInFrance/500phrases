@@ -21,11 +21,13 @@ function loadPhrases() {
 let phrases = loadPhrases();
 
 app.get("/", function (req, res) {
-  phrases = loadPhrases();
+  
   res.render("index.eta", { phrases });
 });
 app.get("/list/:id", function (req, res) {
   jsonPath = `${req.params.id}.json`;
+  console.log(`start of list:id route`);
+  
   phrases = loadPhrases();
   res.render("list.eta", { phrases });
 });
@@ -36,7 +38,7 @@ app.get("/phrase/:id", function (req, res) {
   return phrases;
 });
 
-app.get("/list/:id", function (req, res) {
+app.get("/list/search/:id", function (req, res) {
   let checkQuery = function (id) {};
   id = req.params.id;
   console.log(id);
@@ -48,11 +50,13 @@ app.get("/list/:id", function (req, res) {
     res.render("phrase.eta", { phrases });
     return;
   } else if (typeof +id == "number") {
+    console.log(`start of else if`);
+    
     phrases = loadPhrases();
     phrases = phrases.filter((word) => word.text.includes(id));
 
     console.log("else fired");
-    res.render("index.eta", { phrases });
+    res.render("./list.eta", { phrases });
     return phrases;
   }
 });

@@ -36,7 +36,7 @@
   let replaceSearch = function() {
     let foo = document.getElementById("search").value;
     if (/^[A-Za-z0-9]*$/.test(foo)) {
-      window.location.href = "./" + foo;
+      window.location.href = "/list/search/" + foo;
     } else {
       return;
     }
