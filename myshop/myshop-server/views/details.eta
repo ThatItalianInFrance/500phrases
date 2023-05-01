@@ -1,0 +1,16 @@
+<% layout("lay.eta") %>
+
+<body>
+  <div class="container">
+    <div class="row">
+    
+      <div class="col-md-3">
+        <h1><%= it.rows[0].name %></h1>
+        <p><%= it.rows[0].description %></p>
+        <a href="/nos-produits/edit/<%= it.rows.id %>">Modifier le produit</a>
+
+      </div>
+    </div>
+    <button class="btn btn-primary mt-3" onclick="">back to list</button> 
+  </div>
+</body>

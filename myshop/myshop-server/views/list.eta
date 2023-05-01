@@ -1,0 +1,23 @@
+<% layout("lay.eta") %>
+
+  <body>
+   
+<table class="container">
+
+  <% for (let i = 0; i < it.rows.length; i++) { %>
+    <% const element = it.rows[i]; %>
+    
+    <tr class="row">
+      <td class="col"><%= element.id %></td>
+      <td class="col"><a href="/details/<%= element.id %>"><%= element.name %></td>
+      <td class="col"><%= element.description %></td>
+      <td class="col"><%= element.price %></td>
+      <td class="col"><button class="btn btn-danger">add to cart</button></td>
+      
+      
+      </tr>
+      <% } %>
+  </table>
+   
+  </body>
+
